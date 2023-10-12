@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="main-container">
+        <h2>Unit Converter</h2>
+        <div class="units">
+            <div class="unit">
+                <p class="len">Length</p>
+                <div class="length-container">
+                    <h3>Length Converter</h3>
+                    <div class="len-main">
+                        <div class="len-input">
+                            <div class="inputs">
+                                <h4>From:</h4>
+                                <input type="text" id="from-len">
+                            </div>
+                            <div class="inputs">
+                                <h4>To:</h4>
+                                <input type="text" id="to-len">
+                            </div>
+                        </div>
+                        <div class="unit-input">
+                            <div class="inputs">
+                                <label for="Length">Unit:</label>
+                                <select name="Length" id="from-leng">
+                                    <option value="Meter">Meter</option>
+                                    <option value="Centimeter">Centimeter</option>
+                                    <option value="Kilometer">Kilometer</option>
+                                    <option value="Millimeter">Millimeter</option>
+                                </select>
+                            </div>
+                            <div class="inputs">
+                                <label for="Length">Unit:</label>
+                                <select name="Length" id="to-leng">
+                                    <option value="Meter">Meter</option>
+                                    <option value="Centimeter">Centimeter</option>
+                                    <option value="Kilometer">Kilometer</option>
+                                    <option value="Millimeter">Millimeter</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="len-result">
+                            <h4 class="len-calculate">Calculate</h4>
+                            <span>Result: <span class="len-res"></span> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="unit">
+                <p class="tem">Temperature</p>
+                <div class="temp-container hidden">
+                    <h3>Temperature Converter</h3>
+                    <div class="temp-main">
+                        <div class="temp-input">
+                            <div class="inputs">
+                                <h4>From:</h4>
+                                <input type="text" id="from-tem">
+                            </div>
+                            <div class="inputs">
+                                <h4>To:</h4>
+                                <input type="text" id="to-tem">
+                            </div>
+                        </div>
+                        <div class="unit-input">
+                            <div class="inputs">
+                                <label for="Temp">Unit:</label>
+                                <select name="Temp" id="from-temp">
+                                    <option value="Celsius">Celsius</option>
+                                    <option value="Kelvin">Kelvin</option>
+                                    <option value="Fahrenheit">Fahrenheit</option>
+                                </select>
+                            </div>
+                            <div class="inputs">
+                                <label for="Temp">Unit:</label>
+                                <select name="Temp" id="to-temp">
+                                    <option value="Celsius">Celsius</option>
+                                    <option value="Kelvin">Kelvin</option>
+                                    <option value="Fahrenheit">Fahrenheit</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="temp-result">
+                            <h4 class="temp-calculate">Calculate</h4>
+                            <span>Result: <span class="temp-res"></span> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="unit">
+                <p class="are">Area</p>
+                <div class="area-container hidden">
+                    <h3>Area Converter</h3>
+                    <div class="area-main">
+                        <div class="area-input">
+                            <div class="inputs">
+                                <h4>From:</h4>
+                                <input type="text" id="from-are">
+                            </div>
+                            <div class="inputs">
+                                <h4>To:</h4>
+                                <input type="text" id="to-are" disabled>
+                            </div>
+                        </div>
+                        <div class="unit-input">
+                            <div class="inputs">
+                                <label for="Area">Unit:</label>
+                                <select name="Area" id="from-area">
+                                    <option value="Square Meter">Square Meter</option>
+                                    <option value="Square Kilometer">Square Kilometer</option>
+                                    <option value="Square Centimeter">Square Centimeter</option>
+                                    <option value="Square Millimeter">Square Millimeter</option>
+                                </select>
+                            </div>
+                            <div class="inputs">
+                                <label for="Area">Unit:</label>
+                                <select name="Area" id="to-area">
+                                    <option value="Square Meter">Square Meter</option>
+                                    <option value="Square Kilometer">Square Kilometer</option>
+                                    <option value="Square Centimeter">Square Centimeter</option>
+                                    <option value="Square Millimeter">Square Millimeter</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="area-result">
+                            <h4 class="area-calculate">Calculate</h4>
+                            <span>Result: <span class="area-res"></span> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

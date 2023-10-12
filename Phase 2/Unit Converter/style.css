@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Add this to your existing CSS or style.css file */
+
+.hidden {
+    display: none;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.units {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.0rem;
+}
+
+.units .unit {
+    flex: 1;
+    text-align: center;
+}
+
+.units p {
+    background-color: #141414;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.length-container,
+.temp-container,
+.area-container {
+    margin-top: 50px;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    animation: increaseWidth 500ms ease-in-out;
+}
+
+@keyframes increaseWidth {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.len-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.len-input .inputs input[type=text] {
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    padding-left: 15px;
+}
+
+.unit-input {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.unit-input .inputs select {
+    width: 214px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.len-result {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.len-result h4 {
+    text-align: center;
+    background: #141414;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.len-result span {
+    padding: 10px;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.temp-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.temp-input .inputs input[type=text] {
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    padding-left: 15px;
+}
+
+.temp-result {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.temp-result h4 {
+    text-align: center;
+    background: #141414;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.temp-result span {
+    padding: 10px;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.area-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.area-input .inputs input[type=text] {
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    padding-left: 15px;
+}
+
+.area-result {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.area-result h4 {
+    text-align: center;
+    background: #141414;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.area-result span {
+    padding: 10px;
+    margin: 40px auto;
+    font-size: 18px;
+}
